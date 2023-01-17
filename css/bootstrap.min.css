@@ -53,7 +53,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c7293;
+  color: #ffffff;
   background-color: #000;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -821,6 +821,21 @@ progress {
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+  .col-sm-6-gallery{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-lg-3-gallery {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-md-4-gallery {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
   }
   .col-sm-7 {
     flex: 0 0 auto;
